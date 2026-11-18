@@ -11,15 +11,17 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 const PARAGRAPHS = [
-  'You are small, and you brought the river home in a jam jar, and your grandmother has set it on the kitchen table, by the lamp.',
-  'At first it is all brown and turning, a small storm with the lid on. You lay your cheek on your arms on the warm oilcloth, and watch.',
+  'You are five, and the river you carried home in a jam jar is on the table, by the lamp.',
+  'At first it is all brown and turning, a little weather with the lid on. You lay your cheek on your arms on the warm oilcloth, and watch.',
   'No one stirs it. No one has to.',
-  'The sand goes first, in a soft hurry, and lies down on the bottom in one pale floor.',
+  'The sand goes first. It lies down on the bottom in one pale floor.',
   'Then the silt. It hangs the way dust hangs in a barn, and comes down so slowly it seems not to be coming down at all.',
-  'Behind you she dries the cups and sets each one on the shelf with a small knock. A cup. A while. A cup.',
-  'One grain lets go of the middle and sinks the whole way, taking its time. Then another. Farther apart.',
+  'Behind you, your grandmother dries the cups, and shelves each one with a soft knock. A cup. A while. A cup.',
+  'One grain lets go of the middle and sinks the whole way down. Then another, farther apart.',
+  'A cup. A longer while.',
   'The brown goes to tea, and the tea to water, and through the water the lamp comes clear.',
   'You are asleep on your arms before it is done. She does not move the jar. She does not move you.',
+  'In the night the last grain lands. Nobody hears it.',
   'All of the river is still in there. Nothing was taken out. It was only left alone.',
 ];
 
